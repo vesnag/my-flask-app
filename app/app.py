@@ -1,12 +1,14 @@
 """
 This module handles the web application's main routes and logic.
 """
+
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+    """Returns a greeting message."""
     return 'Hello, World!'
 
 if __name__ == '__main__':
