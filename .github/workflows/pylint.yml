@@ -24,4 +24,4 @@ jobs:
         export PYTHONPATH=$PYTHONPATH:$(pwd)    
     - name: Analysing the code with pylint
       run: |
-        pylint --rcfile=.pylintrc --fail-under=9 $(git ls-files '*.py')
+        pylint --fail-under=9 $(git ls-files '*.py')
