@@ -1,3 +1,6 @@
+"""
+This module handles the web application's main routes and logic.
+"""
 from flask import Flask
 
 app = Flask(__name__)
